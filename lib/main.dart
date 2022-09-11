@@ -25,7 +25,12 @@ class Home extends StatelessWidget {
         title: Text("gh pages demo"),
       ),
       body: Center(
-        child: Text("Abhinivesh"),
+        child: Text(
+          "Abhinivesh",
+          style: TextStyle(
+            fontSize: 50,
+          ),
+        ),
       ),
     );
   }
